@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRP Tabletop Exercise – Water Main Break / Facility Flood</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        .header { background-color: #f4f4f4; padding: 10px; border-bottom: 2px solid #004d99; }
+        .section { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+        h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        [cite_start]<h1>Tabletop Exercise – Water Main Break / Facility Flood [cite: 112]</h1>
+        [cite_start]<p><strong>Date & Time:</strong> 10/15/2025 [cite: 113]</p>
+        [cite_start]<p><strong>Participants:</strong> Network Admin [cite: 115][cite_start], IT Specialist [cite: 116][cite_start], CISO [cite: 117][cite_start], COO [cite: 118][cite_start], HR Rep [cite: 119]</p>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Scenario Overview [cite: 120]</h2>
+        [cite_start]<p>Early in the morning, a water main break floods the main office/clinic[cite: 121]. [cite_start]Water seeps into the server room and electrical panels, triggering outages in network switches, desktops, and VoIP phones[cite: 122]. [cite_start]Staff cannot access systems, and patient appointments are disrupted[cite: 123]. [cite_start]While no client data is breached, there is a physical risk to IT equipment and disruption to operations[cite: 124].</p>
+        <p><strong>Affected Systems & Areas:</strong></p>
+        <ul>
+            [cite_start]<li>On-prem network switches and servers (must contact Vendor A)[cite: 126].</li>
+            [cite_start]<li>Workstations and VoIP phones[cite: 127]. [cite_start]Staff with company laptops can use cloud storage backups for needed documents[cite: 127, 128].</li>
+            [cite_start]<li>Physical access to building areas due to water hazards[cite: 129].</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Discussion Questions [cite: 130]</h2>
+
+        [cite_start]<h3>Immediate Response & Safety [cite: 131]</h3>
+        <ul>
+            [cite_start]<li><strong>Declaring Unsafe:</strong> Safety personnel declare the facility unsafe for entry[cite: 132].</li>
+            [cite_start]<li><strong>Power Down:</strong> Depending on the safety conditions, equipment would either be a loss or need manual shutdown[cite: 133].</li>
+            [cite_start]<li><strong>Employee Reporting:</strong> Company-owned laptops would still allow file access via the cloud[cite: 134]. [cite_start]An app on company phones allows desk phone calls to be routed to cell phones[cite: 135].</li>
+        </ul>
+
+        [cite_start]<h3>Operational Continuity [cite: 136]</h3>
+        <ul>
+            [cite_start]<li><strong>Remote Work:</strong> Staff can work remotely due to cloud drive access[cite: 136].</li>
+            [cite_start]<li><strong>Alternate Locations:</strong> We have multiple sites where people can be moved if needed[cite: 137].</li>
+            [cite_start]<li><strong>Patient Communication:</strong> We are currently working on an alert system to send messages via phone and email[cite: 138, 147].</li>
+            [cite_start]<li><strong>Workarounds:</strong> Moving critical operations to other sites is an option in the event of massive building flooding[cite: 139].</li>
+        </ul>
+
+        [cite_start]<h3>IT & Infrastructure [cite: 140]</h3>
+        <ul>
+            [cite_start]<li><strong>Damage Assessment:</strong> Done with IT, insurance adjusters, and a water damage company (e.g., Servpro)[cite: 141].</li>
+            <li><strong>Equipment Movement:</strong> Not planned, as servers are bolted down. [cite_start]A temporary dam could be used around critical equipment[cite: 143].</li>
+            [cite_start]<li><strong>System Restoration:</strong> Will require replacement, imaging, and preparation of all damaged equipment[cite: 145].</li>
+        </ul>
+
+        [cite_start]<h3>Communication [cite: 146]</h3>
+        <ul>
+            [cite_start]<li><strong>Staff/Patient Updates:</strong> Alerts will be rolled out via email and cell phones[cite: 147].</li>
+            [cite_start]<li><strong>Vendor Notification:</strong> May need to contact the power company (if unsafe conditions exist) [cite: 148][cite_start], internet provider, and IT vendor [cite: 149].</li>
+            [cite_start]<li><strong>Insurance:</strong> Yes, a process is in place with the insurance company, compiled by IT staff and adjusters[cite: 150].</li>
+        </ul>
+
+        [cite_start]<h3>Recovery & Lessons Learned [cite: 151]</h3>
+        <ul>
+            [cite_start]<li><strong>Documentation:</strong> Items are already in place to record instances and situations for compliance[cite: 152].</li>
+            [cite_start]<li><strong>Redundancy:</strong> Not necessary for file backup due to cloud back up [cite: 154]. [cite_start]Only services affected if servers were damaged are DHCP, AD, and Print servers[cite: 154].</li>
+            [cite_start]<li><strong>DRP Revision:</strong> Already addressed[cite: 156].</li>
+        </ul>
+    </div>
+
+</body>
+</html>
