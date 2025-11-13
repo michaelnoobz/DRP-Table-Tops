@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated DRP Tabletop Exercise: Cloud-Based Ransomware</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        .header { background-color: #f4f4f4; padding: 10px; border-bottom: 2px solid #cc0000; }
+        .section { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+        h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        .scenario-box { border: 2px dashed #cc0000; padding: 15px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        [cite_start]<h1>Updated DRP Tabletop Exercise: Cloud-Based Ransomware Attack [cite: 73]</h1>
+        [cite_start]<p><strong>Completed:</strong> 04/16/2025 [cite: 66]</p>
+        [cite_start]<p><strong>Attendees:</strong> HR Rep [cite: 68][cite_start], CISO [cite: 69][cite_start], COO [cite: 70][cite_start], Network Admin [cite: 71][cite_start], IT Specialist [cite: 72]</p>
+    </div>
+
+    <div class="scenario-box">
+        [cite_start]<h2>Incident Overview [cite: 75]</h2>
+        <p><strong>Date & Time:</strong> Monday, 8:30 AM</p>
+        [cite_start]<p><strong>Affected Systems:</strong> Cloud Services (Shared Storage, Files, Email) [cite: 74][cite_start], Email Security Gateway [cite: 74][cite_start], Endpoint Detection System[cite: 74].</p>
+        <ul>
+            [cite_start]<li>Users report files in Shared Storage and Cloud Drive are encrypted with a `.locked` extension[cite: 76].</li>
+            [cite_start]<li>A ransom note appears demanding payment for decryption[cite: 77].</li>
+            [cite_start]<li>Emails are being auto-forwarded externally, possibly exfiltrating sensitive data[cite: 78].</li>
+            [cite_start]<li>Endpoint Detection System detects malicious PowerShell activity on a global admin account[cite: 79].</li>
+            [cite_start]<li>Retention policies and backups appear to be disabled[cite: 80].</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Exercise Discussion Questions [cite: 81]</h2>
+
+        [cite_start]<h3>First Response & Containment [cite: 82]</h3>
+        <ul>
+            [cite_start]<li><strong>Stopping the Attack:</strong> Quarantine affected users and computers; reset the password for the global admin[cite: 83].</li>
+            [cite_start]<li><strong>Admin Account Reset:</strong> Yes, all admin accounts would be reset and external access blocked[cite: 84].</li>
+            [cite_start]<li><strong>Isolation:</strong> Yes, affected users will be quarantined[cite: 85].</li>
+        </ul>
+
+        [cite_start]<h3>Assessing the Damage [cite: 86]</h3>
+        <ul>
+            [cite_start]<li><strong>Compromised Data:</strong> Patient info, shared storage, accounting data[cite: 87].</li>
+            [cite_start]<li><strong>Backups:</strong> Redundant file system folders may still have some data backed up[cite: 88]. [cite_start]30 days of Cloud Drive is backed up as a whole on the email security platform[cite: 89].</li>
+            [cite_start]<li><strong>Initial Entry:</strong> Possible MFA bypass or phishing attack, easily granting access to Cloud Drive data[cite: 90, 91]. [cite_start]MFA is not on all services[cite: 92].</li>
+        </ul>
+
+        [cite_start]<h3>Decision: Ransom or Recovery? [cite: 93]</h3>
+        <ul>
+            [cite_start]<li><strong>Law Enforcement:</strong> Engage State Police with the National Law Enforcement Agency contact[cite: 94].</li>
+            [cite_start]<li><strong>Recovery Options (If Backups Deleted):</strong> Rely on the Email Security platform and redundant backups[cite: 95].</li>
+            [cite_start]<li><strong>Paying Ransom:</strong> No, given the amount of backups and redundancies, paying the ransom would not be considered[cite: 98].</li>
+        </ul>
+
+        [cite_start]<h3>Legal & Compliance Considerations [cite: 100]</h3>
+        <ul>
+            [cite_start]<li><strong>Legal Obligations:</strong> Notify State Police, National Law Enforcement Agency, Formal breach notification, and Regulatory body (OIG)[cite: 101].</li>
+            [cite_start]<li><strong>Client/Vendor Notification:</strong> We notify with a procedure that is already in place[cite: 102].</li>
+            [cite_start]<li><strong>HIPAA Impact:</strong> Depends on the number of records breached; the Regulatory body (OIG) would decide the necessary compliance follow-up[cite: 104, 105].</li>
+        </ul>
+
+        [cite_start]<h3>External Communications [cite: 106]</h3>
+        <ul>
+            [cite_start]<li><strong>Informing Stakeholders:</strong> Letters are the main way to inform employees, clients, and stakeholders[cite: 107].</li>
+            [cite_start]<li><strong>Public Relations:</strong> No current public relations plan; may need to go through the CEO[cite: 108, 109].</li>
+            [cite_start]<li><strong>Secure Communication:</strong> Letters are currently the only secure method set up, as email may be compromised[cite: 110].</li>
+            [cite_start]<li>**Things to Address:** Public relations strategy for reputation management[cite: 111].</li>
+        </ul>
+    </div>
+
+</body>
+</html>
