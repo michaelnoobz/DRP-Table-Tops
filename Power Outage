@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disaster Recovery Plan (DRP) Tabletop Exercise: Power Outage</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        .header { background-color: #f4f4f4; padding: 10px; border-bottom: 2px solid #555; }
+        .section { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+        h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        [cite_start]<h1>DRP Tabletop Exercise: Power Outage Scenario [cite: 157]</h1>
+        <p><strong>Scenario Time:</strong> 10:45 AM</p>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Scenario Overview [cite: 157]</h2>
+        [cite_start]<p>The organization experiences a sudden power outage affecting its primary office and on-prem infrastructure[cite: 158]. [cite_start]The backup generator fails, causing a total loss of power to the local network, internal servers, and VoIP phone systems[cite: 159]. [cite_start]The data center remains operational, but all internal connectivity is lost[cite: 160]. [cite_start]Employees lose access to cloud services (M365, Cloud Drive) and internal network resources[cite: 161]. [cite_start]IT must assess the situation, execute the DRP, and restore critical services[cite: 162].</p>
+
+        [cite_start]<h3>Participants & Roles [cite: 163]</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Role</th>
+                    <th>Responsibility Focus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    [cite_start]<td>CIO  [cite: 164]</td>
+                    <td>Oversees IT strategy, ensures proper escalation, and coordinates with executives.</td>
+                </tr>
+                <tr>
+                    [cite_start]<td>CSCO  [cite: 165]</td>
+                    <td>Manages security concerns, compliance, and potential risks.</td>
+                </tr>
+                <tr>
+                    [cite_start]<td>COO [cite: 166]</td>
+                    <td>Handles communication with employees and external stakeholders.</td>
+                </tr>
+                <tr>
+                    [cite_start]<td>Network Admin  [cite: 167]</td>
+                    <td>Leads network recovery, troubleshooting infrastructure failures.</td>
+                </tr>
+                <tr>
+                    [cite_start]<td>IT Specialist [cite: 168]</td>
+                    <td>Focuses on security, email filtering (Barracuda), and M365 access.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Exercise Discussion Flow [cite: 169]</h2>
+
+        <h3>1. [cite_start]Immediate Response & Assessment [cite: 170]</h3>
+        <ul>
+            [cite_start]<li>How should employees report the outage if email and VoIP are down? [cite: 171]</li>
+            [cite_start]<li>**Network Admin:** First steps to diagnose network failure? [cite: 172]</li>
+            [cite_start]<li>**IT Specialist:** How to verify status of M365, Email Filter, and email accessibility? [cite: 173]</li>
+            [cite_start]<li>**CIO:** How should IT leadership coordinate efforts and escalate the issue? [cite: 174]</li>
+            [cite_start]<li>**COO:** Protocol for notifying employees and external partners? [cite: 175]</li>
+        </ul>
+
+        <h3>2. [cite_start]Impact Analysis [cite: 176]</h3>
+        <ul>
+            <li>Which systems are affected? (M365, Email Filter, Cloud Drive, Endpoint System, Management Tool, VPN, etc.) [cite_start][cite: 177]</li>
+            [cite_start]<li>Can remote employees still access cloud services? [cite: 178]</li>
+            [cite_start]<li>**CSCO:** How does the outage impact security monitoring and compliance requirements? [cite: 179]</li>
+            [cite_start]<li>What are the estimated Recovery Time Objectives (RTO) for each system? [cite: 180]</li>
+        </ul>
+
+        <h3>3. [cite_start]Recovery Steps [cite: 181]</h3>
+        <ul>
+            [cite_start]<li>**Network Admin:** Process for restoring network functionality after power returns? [cite: 182]</li>
+            [cite_start]<li>**IT Specialist:** How to ensure authentication services (Active Directory, VPN) come back online? [cite: 183]</li>
+            <li>What alternative workarounds exist for employees? (Mobile hotspots, backup internet connections, etc.) [cite_start][cite: 184]</li>
+            [cite_start]<li>**CIO & COO:** Contingency plans to maintain operations during extended outages? [cite: 185]</li>
+        </ul>
+
+        <h3>4. [cite_start]Security & Compliance Considerations [cite: 186]</h3>
+        <ul>
+            [cite_start]<li>**CSCO:** How to validate system integrity after power restoration? [cite: 187]</li>
+            [cite_start]<li>**IT Specialist & Network Admin:** Does the Endpoint System detect any anomalies during downtime? [cite: 188]</li>
+            [cite_start]<li>Are compliance reports required for the disruption? [cite: 189]</li>
+            [cite_start]<li>What measures should be taken to prevent data loss or corruption? [cite: 190]</li>
+        </ul>
+
+        <h3>5. [cite_start]Post-Incident Actions & DRP Updates [cite: 191]</h3>
+        <ul>
+            [cite_start]<li>**CIO & COO:** How can the organization improve disaster communication and preparedness? [cite: 192]</li>
+            <li>**Network Admin & IT Specialist:** What technical improvements can be made to prevent similar failures? (Generator maintenance, redundant networking, additional remote access options, etc.) [cite_start][cite: 194, 193]</li>
+            [cite_start]<li>**CSCO:** Are there any security gaps that need addressing? [cite: 195]</li>
+            [cite_start]<li>How should the DRP be updated based on lessons learned? [cite: 196]</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Conclusion [cite: 197]</h2>
+        [cite_start]<p>Each participant summarizes key takeaways, and the organization's DRP is updated accordingly to address identified weaknesses[cite: 198].</p>
+    </div>
+
+</body>
+</html>
