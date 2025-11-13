@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insider Threat Tabletop Exercise Response</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
+        .header { background-color: #f4f4f4; padding: 10px; border-bottom: 2px solid #ccc; }
+        .section { margin-bottom: 20px; padding: 10px; border: 1px solid #eee; }
+        h2 { color: #333; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
+        h3 { color: #555; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        .note { background-color: #fffacd; padding: 10px; border-left: 5px solid #ffcc00; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        [cite_start]<h1>Insider Threat Tabletop Exercise [cite: 1]</h1>
+        [cite_start]<p><strong>Date:</strong> 07/16/2025 [cite: 2]</p>
+        [cite_start]<p><strong>Participants:</strong> Network Admin [cite: 3][cite_start], IT Specialist [cite: 3][cite_start], CISO [cite: 3][cite_start], Chief Operations Officer [cite: 3]</p>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Scenario Overview [cite: 4]</h2>
+        [cite_start]<p>Security monitoring has flagged unusual behavior from a privileged user’s workstation[cite: 5]. [cite_start]The user accessed large volumes of sensitive client and financial data and uploaded them to a personal cloud storage account using a web browser[cite: 6]. [cite_start]This activity occurred outside of normal business hours[cite: 7]. [cite_start]The user had proper access permissions but was recently passed over for a promotion and had expressed dissatisfaction[cite: 7].</p>
+        [cite_start]<p><strong>Affected Systems:</strong> Client Records Database (System A) [cite: 7][cite_start], M365 Exchange (email) [cite: 7][cite_start], Shared Storage & Cloud Drive (file storage)[cite: 7].</p>
+    </div>
+
+    <div class="section">
+        [cite_start]<h2>Response Summary [cite: 8]</h2>
+
+        [cite_start]<h3>Detection & Initial Response [cite: 9]</h3>
+        <ul>
+            [cite_start]<li><strong>How to confirm:</strong> Direct confirmation is limited, but firewall logs indicate network activity consistent with cloud uploads[cite: 11]. [cite_start]Deploying a centralized log server is recommended for better visibility[cite: 12].</li>
+            [cite_start]<li><strong>Immediate Notification:</strong> HR Rep, CISO, Network Admin, and IT Specialist should be notified immediately[cite: 14].</li>
+            [cite_start]<li><strong>Evidence Preservation:</strong> No current formal process is in place; this needs to be addressed[cite: 16]. [cite_start]Logs should be exported, access suspended, and chain-of-custody informally maintained[cite: 17].</li>
+            [cite_start]<li><strong>Access Suspension:</strong> Access would be immediately blocked to prevent further data exfiltration while preserving known logs and activities[cite: 19].</li>
+        </ul>
+
+        [cite_start]<h3>Containment [cite: 20]</h3>
+        <ul>
+            [cite_start]<li><strong>Immediate Actions:</strong> Suspend all user access to network, systems, and cloud resources[cite: 22].</li>
+            [cite_start]<li><strong>Workstation Isolation:</strong> Utilize USB blockers, write-blockers, and suspend credentials across all systems[cite: 24].</li>
+            [cite_start]<li><strong>Business Continuity:</strong> Disabling this user's access is not expected to disrupt overall operations or service delivery[cite: 26].</li>
+        </ul>
+
+        [cite_start]<h3>Investigation & Forensics [cite: 27]</h3>
+        <ul>
+            [cite_start]<li><strong>Forensic Steps:</strong> The Client Records Database (System A) has audit logs tracking which patient records were accessed[cite: 29]. [cite_start]This confirms viewing but not necessarily download or exfiltration[cite: 30].</li>
+            [cite_start]<li><strong>Identify Leaked Data Destination:</strong> Perimeter firewall logs store bandwidth and destination data for one week[cite: 32]. [cite_start]These logs can be reviewed to identify external connections and large file transfers[cite: 33].</li>
+            [cite_start]<li><strong>External Engagement:</strong> Law enforcement would be contacted due to the sensitive nature of Protected Health Information (PHI)[cite: 35]. [cite_start]External cybersecurity specialists may not be necessary at this time[cite: 36].</li>
+        </ul>
+
+        [cite_start]<h3>Legal & HR Considerations [cite: 37]</h3>
+        <ul>
+            [cite_start]<li><strong>Employee Monitoring:</strong> Existing processes cover responses based on the type and severity of the breach[cite: 39]. [cite_start]Further review may be required if exact thresholds are triggered[cite: 40].</li>
+            [cite_start]<li><strong>Internal Communication:</strong> An internal process exists for launching investigations, identifying impacted teams, and initiating notifications[cite: 42]. [cite_start]HR and COO oversee communication and legal compliance[cite: 43].</li>
+        </ul>
+
+        [cite_start]<h3>Communication [cite: 46]</h3>
+        <ul>
+            [cite_start]<li><strong>External Notification:</strong> A defined process already exists for notifying affected clients, partners, and stakeholders per regulatory requirements (e.g., HIPAA)[cite: 48].</li>
+            [cite_start]<li><strong>Media Management:</strong> The COOP outlines who is authorized to speak to media or external partners[cite: 50]. [cite_start]Communications are coordinated to ensure clarity and compliance[cite: 51].</li>
+        </ul>
+
+        [cite_start]<h3>Recovery & Lessons Learned [cite: 52]</h3>
+        <ul>
+            [cite_start]<li><strong>Prevention:</strong> Enforce least-privilege access models, strengthen threat detection tools, and continue regular audits[cite: 54].</li>
+            [cite_start]<li><strong>Technical Controls:</strong> Consider implementing more robust monitoring solutions and technical controls[cite: 56]. [cite_start]Extended perimeter services may be beneficial[cite: 56].</li>
+            [cite_start]<li><strong>Training:</strong> A training program is already in place for insider threat awareness and refresher training[cite: 58].</li>
+        </ul>
+    </div>
+
+    <div class="note">
+        [cite_start]<h2>Follow-up Action Items [cite: 59]</h2>
+        <ul>
+            [cite_start]<li>Research affordable Data Loss Prevention (DLP) solutions for endpoint and cloud protection[cite: 60].</li>
+            [cite_start]<li>Explore setting up a centralized syslog server[cite: 61].</li>
+            [cite_start]<li>Evaluate perimeter device capabilities for traffic logging and print controls[cite: 62].</li>
+            [cite_start]<li>Investigate restrictions for printing on shared devices and accounts [cite: 63] [cite_start]and determine if print logs can be sent to a SIEM or summarized via another tool[cite: 64].</li>
+            [cite_start]<li>Explore options to block printing from shared devices or specific users[cite: 65].</li>
+        </ul>
+    </div>
+
+</body>
+</html>
